@@ -171,7 +171,7 @@ The ARM template that we will use in this sample is shown below&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://fullstackmaddy.github.io/images/deploy-logicapps-githubactions/workflowinrepo.jpg&#34; alt=&#34;Workflow in repo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I prefer writing my &lt;code&gt;yaml&lt;/code&gt; file using &lt;code&gt;Visual Studio Code&lt;/code&gt;. And I like the &lt;code&gt;GitHub Actions&lt;/code&gt; extension available. You can check out the extension at &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=me-dutour-mathieu.vscode-github-actions,&#34; title=&#34;GitHub Actions Extension&#34;&gt;GitHub Actions Extension&lt;/a&gt;. This extrension makes it easier to author the workflow files as it provides a built in intellisense.&lt;/p&gt;
 &lt;p&gt;Now that we have the basic stuff in place, let us take a look at the flow of the workflow. The various steps that this flow will perfrom are shown below&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fullstackmaddy.github.io/images/deploy-logicapps-githubactions/flow.jpg&#34; alt=&#34;Flow diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://fullstackmaddy.github.io/images/deploy-logicapps-githubactions/flow1.jpg&#34; alt=&#34;Flow diagram&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-workflow-file&#34;&gt;The Workflow File&lt;/h2&gt;
 &lt;p&gt;We start by adding the trigger on which our GitHub Action workflow will run. This is done in the &lt;code&gt;yaml&lt;/code&gt; file as shown below&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#Name of the GitHub Action&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
